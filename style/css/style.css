@@ -1,0 +1,200 @@
+html {
+  height: calc(100% - 2px);
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  border: 1px solid #268626;
+  background-color: #1F1F1F;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body[focus=false] {
+  border: 1px solid #363636;
+}
+body[focus=false] #titlebar h1 {
+  color: #7C7C7C;
+}
+
+* {
+  user-select: none;
+  font-family: "Segoe UI";
+}
+
+#titlebar {
+  display: flex;
+  height: 25px;
+  overflow: hidden;
+  color: white;
+  font-weight: 300;
+  -webkit-app-region: drag;
+}
+#titlebar h1 {
+  margin-top: 6px;
+  margin-left: 13px;
+  font-size: 12px;
+  font-weight: 300;
+}
+#titlebar .right-buttons {
+  display: flex;
+  position: absolute;
+  right: 0px;
+  height: 30px;
+}
+#titlebar .right-buttons button {
+  height: 100%;
+  width: 47px;
+  background-color: #0000;
+  border: none;
+  color: white;
+  -webkit-app-region: none;
+  outline: none;
+}
+#titlebar .right-buttons button:hover {
+  background-color: #353535;
+}
+#titlebar .right-buttons button.quit:hover {
+  background-color: #E81123;
+}
+
+#content-contain {
+  height: calc(100% - 25px);
+}
+#content-contain #content {
+  width: clamp(100px, 100%, 500px);
+  height: clamp(300px, 100%, 1500px);
+}
+#content-contain #content header {
+  height: 40px;
+  margin-top: 7px;
+  font-size: 20px;
+  color: white;
+}
+#content-contain #content header .icon {
+  width: 40px;
+  height: 40px;
+  border: none;
+  font-size: 17px;
+  background-color: #0000;
+  color: white;
+  outline: none;
+  font-weight: 400;
+}
+#content-contain #content header .icon:hover {
+  background-color: #343434;
+}
+#content-contain #content header .icon:active {
+  background-color: #494949;
+}
+#content-contain #content header strong {
+  font-weight: 500;
+}
+#content-contain #content header .right {
+  position: absolute;
+  right: 0px;
+}
+#content-contain #content header .right:hover {
+  background-color: #343434;
+}
+#content-contain #content header .right:active {
+  background-color: #494949;
+}
+#content-contain #content #answer {
+  margin-bottom: 25px;
+}
+#content-contain #content #answer h2 {
+  margin: 0;
+  height: 20px;
+  padding-right: 15px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: right;
+  color: #9B9B9B;
+}
+#content-contain #content #answer h1 {
+  height: 58px;
+  margin: 0;
+  padding-right: 10px;
+  font-size: 45px;
+  font-weight: 500;
+  text-align: right;
+  color: #FFFFFF;
+  cursor: text;
+}
+#content-contain #content #memory-panel {
+  display: flex;
+  justify-content: space-around;
+}
+#content-contain #content #memory-panel button {
+  width: 100%;
+  height: 33px;
+  margin-bottom: -1px;
+  border: none;
+  background-color: #0000;
+  font-size: 13px;
+  font-weight: 500;
+  color: #FFFFFF;
+  outline: none;
+}
+#content-contain #content #memory-panel button[disabled] {
+  color: #4C4C4C;
+}
+#content-contain #content #memory-panel button:hover:not([disabled]) {
+  background-color: #343434;
+}
+#content-contain #content #memory-panel button:active:not([disabled]) {
+  background-color: #494949;
+}
+#content-contain #content #buttons {
+  width: calc(100% - 4px);
+  height: calc(100% - 182px);
+  display: table;
+  padding: 2px;
+}
+#content-contain #content #buttons row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: calc(100% / 6);
+}
+#content-contain #content #buttons row item {
+  width: 30px;
+  width: 100%;
+  padding: 1px;
+}
+#content-contain #content #buttons row item.empty button {
+  background-color: #111111;
+}
+#content-contain #content #buttons row item.main button {
+  background-color: #060606;
+}
+#content-contain #content #buttons row item.bold button {
+  font-weight: 500;
+}
+#content-contain #content #buttons row item.extra button {
+  background-color: #194419;
+}
+#content-contain #content #buttons row item.extra button:hover {
+  background-color: #117211;
+}
+#content-contain #content #buttons row item.extra button:active {
+  background-color: #107C10;
+}
+#content-contain #content #buttons row item button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 120%;
+  background-color: #131313;
+  color: white;
+  outline: none;
+}
+#content-contain #content #buttons row item button:hover {
+  background-color: #343434;
+}
+#content-contain #content #buttons row item button:active {
+  background-color: #494949;
+}

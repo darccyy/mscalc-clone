@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+  <head>
+    <title>Calculator</title>
+    <script defer src="../node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <link rel="stylesheet" href="../style/css/style.css">
+    <script type="text/javascript" src="../js/client.js"></script>
+  </head>
+
+  <body onload="init()">
+    <header id="titlebar">
+      <h1>
+        Calculator
+      </h1>
+      <div class="right-buttons">
+        <button>&#151;</button>
+        <button>&#8414;</button>
+        <button class="quit">&#10005;</button>
+      </div>
+    </header>
+
+    <section id="content-contain">
+      <div id="content">
+        <header>
+          <button class="icon">
+            &#x2630;
+          </button>
+          <strong>
+            Standard
+          </strong>
+          <button class="icon right">
+            <i class="fa fa-history"></i>
+          </button>
+        </header>
+
+        <article id="answer">
+          <h2>
+            643 + 27 =
+          </h2>
+          <h1>
+            670
+          </h1>
+        </article>
+
+        <div id="memory-panel">
+          <button disabled>MC</button>
+          <button disabled>MR</button>
+          <button>M+</button>
+          <button>M-</button>
+          <button>MS</button>
+          <button disabled>M&#9662;</button>
+        </div>
+
+        <div id="buttons"></div>
+      </div>
+    </section>
+  </body>
+
+</html>

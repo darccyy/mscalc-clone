@@ -1,0 +1,20 @@
+{
+  "name": "mscalc-clone",
+  "productName": "Calculator",
+  "version": "1.0.0",
+  "description": "Clone of the Microsoft Calculator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "darcy",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "electron": "^11.1.1"
+  }
+}
