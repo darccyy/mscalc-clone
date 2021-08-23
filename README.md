@@ -2,6 +2,8 @@
 
 Clone of the Microsoft Calculator
 
+![Screenshot of side-by-side comparison between originial and clone calculator](image/screenshot.png)
+
 # Roadmap
 
 1. &#x2705; Start making look like calculator
@@ -24,3 +26,5 @@ Clone of the Microsoft Calculator
     1. &#x1F532; Think of extra features
 
 ### Created by [darcy](https://github.com/darccyy)
+
+![Icon](image/icon.png)
