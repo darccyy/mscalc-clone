@@ -1,13 +1,22 @@
 {
   "name": "mscalc-clone",
-  "productName": "Calculator",
-  "version": "1.0.0",
+  "productName": "Calculator ♜",
+  "version": "0.1.0",
   "description": "Clone of the Microsoft Calculator",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "keywords": [],
+  "keywords": [
+    "calc",
+    "calculator",
+    "mscalc",
+    "ms-calc",
+    "mscalculator",
+    "ms-calculator",
+    "microsoft",
+    "calc-clone"
+  ],
   "author": "darcy",
   "license": "ISC",
   "dependencies": {
