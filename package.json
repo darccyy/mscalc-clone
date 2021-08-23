@@ -25,5 +25,10 @@
   },
   "devDependencies": {
     "electron": "^11.1.1"
+  },
+  "build": {
+    "win": {
+      "icon": "image/icon.png"
+    }
   }
 }
