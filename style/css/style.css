@@ -14,7 +14,7 @@ body::-webkit-scrollbar {
 body[focus=false] {
   border: 1px solid #363636;
 }
-body[focus=false] #titlebar h1 {
+body[focus=false] #titlebar button, body[focus=false] #titlebar h1 {
   color: #7C7C7C;
 }
 
@@ -40,7 +40,7 @@ body[focus=false] #titlebar h1 {
 #titlebar .right-buttons {
   display: flex;
   position: absolute;
-  right: 0px;
+  right: 1px;
   height: 30px;
 }
 #titlebar .right-buttons button {
@@ -93,7 +93,7 @@ body[focus=false] #titlebar h1 {
 }
 #content-contain #content header .right {
   position: absolute;
-  right: 0px;
+  right: 1px;
 }
 #content-contain #content header .right:hover {
   background-color: #343434;

@@ -16,7 +16,7 @@ body {
     border: 1px solid #363636;
 
     #titlebar {
-      h1 {
+      button, h1 {
         color: #7C7C7C;
       }
     }
@@ -46,7 +46,7 @@ body {
   .right-buttons {
     display: flex;
     position: absolute;
-    right: 0px;
+    right: 1px;
     height: 30px;
 
     button {
@@ -109,7 +109,7 @@ body {
 
       .right {
         position: absolute;
-        right: 0px;
+        right: 1px;
 
         &:hover {
           background-color: #343434;
